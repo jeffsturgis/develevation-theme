@@ -1,0 +1,331 @@
+/*
+ Theme Name:   Develevation Theme
+ Theme URI:    http://www.develevation.com/
+ Description:  A Devdbboostrap3 child theme
+ Author:       Jeff Sturgis
+ Template:     devdmbootstrap3
+ Version:      1.0.0
+*/
+
+
+
+ html {
+  height: 100%; margin: 0;
+  display: none;
+
+}
+body {
+
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  background: #085692;
+}
+h1, h2, h3 {font-weight: 900;}
+h4, h5, h6 {font-weight: 700;}
+.content {
+  background: #085692;
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  background-image: url(/wp-content/uploads/2017/10/jeff.svg); background-position: center; background-size: cover;
+}
+.footer {
+    background: #085692;
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+   color: #999;
+
+}
+
+#logo {cursor: pointer; width: 100%; left: 50%; transform: translateX(-50%) translateY(-70%); position: absolute; top: 50%; z-index: 2;}
+#logo svg {width: 100%; height: auto; }
+#cursor {color: #fff; font-size: 60px; position: absolute; top: 64%; display: inline-block;  left: 50%; transform: translateX(-50%); z-index: 3;}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -200px;
+}
+
+
+.header {background: rgba(0,0,0,0.2); color: #fff; padding: 30px 0;}
+.header a {color: #ccc; }
+.header a:hover {color: #fff; }
+.header img {max-width: 100%; width: 100%; margin-top: -7px;}
+.header .fa{ font-size: 40px; padding: 0px 5px;}
+
+
+.footer-top{background: rgba(0,0,0,0.5); padding: 20px 0 ;}
+.footer-top ul {list-style: none;}
+.footer-top li {line-height: 26px;}
+.footer-top hr {border-top: 1px solid #206269;}
+.footer-top h4 {color: #ddd;}
+.footer-top h6 {color: #9ce0ff;}
+.footer-top .hr-h4 {border-top: 1px solid #309c9c;}
+.footer-bottom {  background: rgba(0,0,0,0.6); padding: 15px 0;}
+.footer a:hover{color: #fff !important; }
+
+#main-body {padding: 30px 15px; display: none;}
+img {max-width: 100%;  width: 100%; height: auto;}
+.area-of-expertise { display: block;  background: #fff; -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s; float: left; width: 48%; margin: 10px 1%; text-center; position: relative;  border: 5px solid #397bbf; border-radius: 3px; }
+a .area-of-expertise:hover {background: #ddd; border-color: #173d64; font-weight: 900;}
+.area-of-expertise .img-wrapper{ width: 100%; height: 150px;}
+.area-of-expertise .img-wrapper img {     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%);
+    max-width: 90px;
+    max-height: 100px;
+    z-index: 5;
+   width: 100px;
+
+    margin: 0;}
+.area-of-expertise .skill {text-align: center; border-top: 5px solid #66bdff;  position: absolute; width: 100%; bottom :0; padding: 5px;}
+
+.well h3 {margin-top: 0;}
+.skill-featured-image {display: block; height: 200px; margin: auto;}
+body {
+  /* For the Footer Menu */
+  padding-bottom: 0px;
+}
+.blog-content {background: #fff; padding: 20px;}
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
+
+input[type=radio].with-font,
+input[type=checkbox].with-font {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+input[type=radio].with-font ~ label:before,
+input[type=checkbox].with-font ~ label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f1db";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: #535353;
+    width: 1.4em;
+}
+
+input[type=radio].with-font:checked ~ label:before,
+input[type=checkbox].with-font:checked ~ label:before  {
+    content: "\f00c";
+    font-size: 1.2em;
+    color: darkgreen;
+    letter-spacing: 5px;
+}
+input[type=checkbox].with-font ~ label:before {
+    content: "\f096";
+}
+input[type=checkbox].with-font:checked ~ label:before {
+    content: "\f046";
+    color: darkgreen;
+}
+input[type=radio].with-font:focus ~ label:before,
+input[type=checkbox].with-font:focus ~ label:before,
+input[type=radio].with-font:focus ~ label,
+input[type=checkbox].with-font:focus ~ label
+{
+    color: green;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 20px 0 0px;
+    border-bottom: 0;
+}
+
+.blog-blurb {min-height: 270px; overflow: hidden; text-overflow: ellipsis;}
+
+.blog-category {width: 90px; height: 90px; text-align: center; background: #eee; padding: 15px 0px; border-radius: 50px; float: left; margin-right: 20px; }
+
+.blog-category-sidebar {width: 70px; height: 82px; text-align: center;  padding: 15px 0px; border-radius: 50px; float: left; margin-right: 5px; }
+.blog-category-sidebar .blog-category-icon  {width: 20px; height: 20px; margin: auto; margin-bottom: 8px; padding-top: 20px;   opacity: 0.5; }
+.blog-category-sidebar:hover .blog-category-icon  {  filter: grayscale(0%); opacity: 1; }
+
+.blog-category-mini {width: 25px; height: 25px; text-align: center;float: none; display: inline-block; margin-right: 5px; filter: grayscale(100%); opacity: 0.5;}
+.blog-category-mini:hover {width: 25px; height: 25px; text-align: center;float: none; display: inline-block; margin-right: 5px; filter: grayscale(0%); opacity:1;}
+.blog-category-text {font-size: 10px; width: 80px; margin:auto; text-align: center; color: #fff; background: #3274bb; border-radius: 5px;}
+.blog-category-text-small { font-size: 9px; }
+.blog-category-sidebar .blog-category-text {color: #000; background: #ccc; max-width: 60px ; text-align: center}
+.blog-category-sidebar:hover .blog-category-text {width: auto ;  max-width: none; font-size: 10px; margin:auto; text-align: center; color: #fff; background: #3274bb; border-radius: 5px;}
+.blog-category-icon {width: 40px; height: 40px; margin: auto; margin-bottom: 8px;}
+.blog-category-icon-mini {
+    width: 28px !important;
+    height: 25px !important;
+    padding-top: 0!important;
+    margin-top: 0!important;
+    left: 0 !important;
+    top: 0!important;
+}
+.category-title-icon {width: 40px; height: 40px; margin: auto; margin-bottom: 8px; }
+.tesla {background: url(/wp-content/uploads/2019/03/Tesla_T_symbol.svg); background-size: cover; padding-top: 40px;}
+.the-gimp {background: url(/wp-content/uploads/2020/03/The_GIMP_icon_-_gnome.svg); background-size: cover; padding-top: 40px;}
+.friction-reduction {background: url(/wp-content/uploads/2019/03/droplet.svg); background-size: cover; padding-top: 40px;}
+.electric-vehicles {background: url(/wp-content/uploads/2019/03/electric-vehicle.svg); background-size: cover; padding-top: 40px;}
+.speculation {background: url(/wp-content/uploads/2019/03/speculation.svg); background-size: cover; padding-top: 40px;}
+.model-3-improvements {background: url(/wp-content/uploads/2019/03/model3.svg); background-size: cover; padding-top: 40px;}
+.technology {background: url(/wp-content/uploads/2019/04/hi-elon.svg); background-size: cover; padding-top: 40px;}
+.blender {background: url(/wp-content/uploads/2020/03/Blender_logo_no_text.svg); background-size: cover; padding-top: 8px;
+    width: 60px;
+    height: 48px;}
+.batteries {background: url(/wp-content/uploads/2020/09/cell.svg);
+    background-size: cover; padding-top: 40px;}
+.self-driving {background: url(/wp-content/uploads/2019/03/self-driving.svg); background-size: cover; padding-top: 40px;}
+.neuralink {background: url(/wp-content/uploads/2019/08/1920px-Neuralink_logo.svg.png); background-size: cover; padding-top: 40px; width: 56px; }
+.disruption {background: url(/wp-content/uploads/2019/04/volcano.svg); background-size: cover; padding-top: 40px;}
+.sustainable-energy {background: url(/wp-content/uploads/2019/08/sustainable-energy.svg); background-size: cover; padding-top: 40px;}
+.wind {background: url(/wp-content/uploads/2019/08/wind.svg); background-size: cover; width: 80px; margin-top: -20px; height: 74px; }
+.magento {background: url(/wp-content/uploads/2021/03/Magento_Shiny_Icon.svg); background-size: cover;  }
+.nearsuperchargers-com {background: url(/wp-content/uploads/2021/03/question-mark-ball.svg); background-size: cover;  }
+.cybertruckservices-com {background: url(/wp-content/uploads/2021/04/cybertruck-services-icon.svg); background-size: cover;  width: 80px;  height: 45px; }
+
+.destroyer {background: url(/wp-content/uploads/2019/10/destruction.svg); background-size: cover; padding-top: 40px; width: 74px;}
+.creator {background: url(/wp-content/uploads/2019/04/wagon-wheel.svg); background-size: cover; padding-top: 40px;}
+.problem-solving {background: url(/wp-content/uploads/2019/05/puzzle.svg); background-size: cover; padding-top: 40px;}
+.hypercharts {background: url(/wp-content/uploads/2019/10/hypercharts.svg); background-size: cover; padding-top: 40px;}
+.code-fun {background: url(/wp-content/uploads/2019/10/codefun.svg); background-size: cover; padding-top: 40px;}
+.senior-software-engineer-php {background: url(/wp-content/uploads/2020/07/senior-software-engineer-php.svg); background-size: cover; padding-top: 40px; width: 49px;}
+.lucid {background: url(/wp-content/uploads/2020/09/lucid.svg);
+    background-size: 107px;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    margin-top: 23px;
+    /* position: absolute; */
+    width: 144px;
+    margin-left: -8px;
+    height: 10px;}
+
+.guitar {    background: url(/wp-content/uploads/2020/09/guitar.svg);
+    background-size: cover;
+    padding-top: 5px;
+    width: 67px;
+    height: 44px;
+    margin-bottom: 8px;}
+.cybertruck {    background: url(/wp-content/uploads/2019/11/cybertruck.svg);
+    background-size: cover;
+    padding-top: 40px;
+    width: 140px;
+    left: -30px;
+    position: relative;}
+
+.unnecessary-contstraints {    background: url(/wp-content/uploads/2019/10/detour.svg);
+    background-size: cover;
+    padding-top: 23px;
+    width: 80px;
+    height: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+.nuclear {background: url(/wp-content/uploads/2019/10/nuclear.svg); background-size: cover; padding-top: 40px; height: 45px;}
+.solar {background: url(/wp-content/uploads/2019/08/solar.svg); background-size: 5px 5px; padding-top: 20px; width: 90px; margin-top: -5px; height: 55px; position: relative; z-index: 1; display: inline-block; }
+.solar:after {
+    position: absolute;
+    color: white;
+    width: inherit;
+    background: url(/wp-content/uploads/2019/08/solar-reflection.svg);
+    background-size: 86px;
+    background-repeat: no-repeat;
+    content: "";
+    width: 94px;
+    height: 75px;
+    opacity: 0.55;
+    top: 2px;
+    left: 2px;
+}
+.spacex {background: url(/wp-content/uploads/2019/05/SpaceX-Logo.svg);       width: 90px;
+    height: 64px;
+    margin-left: 23px;
+    background-size: cover;
+    padding-top: 20px;
+    margin-top: -24px;}
+.starlink {background: url(/wp-content/uploads/2019/05/starlink.svg);  width: 90px;
+    height: 64px;
+    margin-left: 23px;
+    background-size: cover;
+    padding-top: 20px;
+    margin-top: -24px;}
+.supercharging {background: url(/wp-content/uploads/2019/05/supercharger.svg); width: 40px; height: 50px; background-size: cover; padding-top: 20px; margin-top: -10px;}
+.elon-musk {    background: url(/wp-content/uploads/2019/03/elon-musk.svg); width: 50px; height: 50px; background-size: cover; padding-top: 20px; margin-top: -10px;}
+.nikola-motors {    background: url(/wp-content/uploads/2020/08/nikola.svg); width: 69px;; height: 50px; background-size: cover; padding-top: 20px; margin-top: -10px;}
+.e-for-electric {    background: url(/wp-content/uploads/2020/05/e-for-electric.svg); width: 50px; height: 50px; background-size: cover; padding-top: 20px; margin-top: -10px;}
+.zach-galifianakis {    background: url(/wp-content/uploads/2020/05/zach-galifianakis.svg); width: 50px; height: 50px; background-size: cover; padding-top: 20px; margin-top: -10px;}
+.grimes {    background: url(/wp-content/uploads/2019/12/grimes.svg); width: 50px; height: 50px; background-size: cover; padding-top: 20px; margin-top: -10px;}
+.bill-gates {    background: url(/wp-content/uploads/2019/10/bill-gates.svg); width: 50px; height: 50px; background-size: cover; padding-top: 20px; margin-top: -10px;}
+.warren-buffett {    background: url(/wp-content/uploads/2019/10/warren-buffett.svg); width: 50px; height: 50px; background-size: cover; padding-top: 20px; margin-top: -10px;}
+.content.cybertruckservices-com, .content.guitar, .content.batteries, .content.nikola-motors, .content.lucid, .content.disruption, .content.senior-software-engineer-php, .content.grimes, .content.cybertruck, .content.destroyer, .content.unnecessary-contstraints, .content.warren-buffett, .content.bill-gates, .content.elon-musk, .content.zach-galifianakis, .content.e-for-electric, .content.spacex, .content.solar, .content.solar:after, .content.wind { width: auto; height: auto; padding-top: 0px}
+.blog-category-icon-mini.neuralink, .blog-category-icon-mini.cybertruck {height: 16px!important; margin-top: 7px !important;    }
+.bg-nikola-motors {background-color: #515456;}
+.blog-category-icon.cybertruck, .blog-category-icon.destroyer {    width: 66px !important;
+    left: 0  !important;}
+ .blog-category-icon-mini.batteries {    height: 26px!important;
+    width: 26px!important;
+    background-size: cover;
+    margin-top: 0px !important;}
+.blog-category-icon-mini.unnecessary-contstraints {height: 8px!important; margin-top: 5px !important;}
+.blog-category-icon-mini.spacex{ margin-left: 0}
+.content.solar {background-size: 90px;}
+.content.solar:after {opacity: 1;}
+.content.lucid {background-size: 100%; background-position: center}
+.blog-category-icon-mini.lucid {    width: 50px!important;
+    background-size: 50px;
+    background-position: center;
+    margin-left: 5px;}
+.blog-category-icon.lucid {width: 50px!important;
+    background-size: 50px;
+    background-position: center;
+    margin-left: 5px;
+
+}
+.page
+
+#pravduh .well {width: 600px;  }
+.doubt {background: url(/wp-content/uploads/2019/03/doubt.svg);}
+.fear {background: url(/wp-content/uploads/2019/03/fear.svg);}
+.uncertainty {background: url(/wp-content/uploads/2019/03/uncertainty.svg); }
+#pravduh .author, .date, .source { font-size: 10px;}
+.fud_title {padding: 2px 0px; font-weight: 700; font-size: 12px;}
+#pravduh .blog-category-icon { width: 30px; height: 30px; display: inline-block; margin-bottom: 0px; padding-top: 30px;  background-size: cover; position: relative;}
+.bar {width: 18px; border-bottom: 1px solid #333; display: block; position: absolute; background: #000; left: 50%; transform: translateX(-50%); }
+.fear .bar {background: #990000;}
+.uncertainty .bar {background: #963a00;}
+.doubt .bar {background: #b3b014;}
+.bar-1 { height:10px; top: -8px;}
+.bar-2 { height:20px; top: -18px;}
+.bar-3 { height:30px; top: -28px;}
+.bar-4 { height:40px; top: -38px;}
+.bar-5 { height:50px; top: -48px;}
+.bar-6 { height:60px; top: -58px;}
+.bar-7 { height:70px; top: -68px;}
+.bar-8 { height:80px; top: -78px;}
+.bar-9 { height:90px; top: -88px;}
+.bar-MAX {height:100px;  top: -98px;}
+#pravduh hr {margin: 5px 0;}
+.fud-meter-wrapper{position: relative; height: 150px;}
+.fud-meter {position: absolute; bottom: 0;}
+.fud-type {text-transform: capitalize}
+
+.nav-number {display: inline-block; padding: 5px; margin: 5px; background: #0c2f4a; color: #fff; width: 30px; border-radius: 25px;}
+.nav-number:hover, .nav-number:active {background: #000; color: #fff; text-decoration: none;}
+span.nav-number, span.nav-number:hover, span.nav-number:active {background: #ccc; color: #0c2f4a; border: 3px solid #0c2f4a; padding: 2px;}
+.blog-date-heading {background: #e1e9e9; color: #000; padding: 5px; font-weight: 500; margin-right: 10px; margin-top: 3px}
+.patreon-icon {width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    border: 5px solid #c4d8ed; margin: 1px;}
+
+.blog-date-heading .post-categories{ display: none;}
+.highlight{ background-color: yellow;}
