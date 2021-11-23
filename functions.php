@@ -130,7 +130,7 @@ function develevation_breadcrumbs($list){
 
 function my_acf_google_map_api( $api ){
 
-	$api['key'] = 'AIzaSyAc0bh299iDGv7IwdCWTcGCyh0gudcKSbg';
+	$api['key'] = file_get_contents('/websites/google_maps_api_key');
 
 	return $api;
 
