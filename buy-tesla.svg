@@ -113,15 +113,16 @@
      inkscape:connector-curvature="0"
      style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-opacity:1"
      id="path4833"
-     d="m 244.321,331.395 h 27.02 c 3.753,-0.746 6.544,-4.058 7.331,-7.262 h -41.681 c 0.779,3.205 3.611,6.516 7.33,7.262" /><text
-     xml:space="preserve"
+     d="m 244.321,331.395 h 27.02 c 3.753,-0.746 6.544,-4.058 7.331,-7.262 h -41.681 c 0.779,3.205 3.611,6.516 7.33,7.262" /><g
+     aria-label="BUY"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.57437134px;line-height:22.77245522px;font-family:TESLA;-inkscape-font-specification:TESLA;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:0.91089821px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="61.344891"
-     y="306.97693"
-     id="text4615"><tspan
-       sodipodi:role="line"
-       id="tspan4613"
-       x="61.344891"
-       y="306.97693"
-       style="font-size:58.29748535px;letter-spacing:5.11925077px;fill:#cc0000;fill-opacity:1;stroke-width:0.91089821px">BUY</tspan></text>
-</svg>
+     id="text4615"><path
+       d="m 97.780819,299.68974 v -3.64359 q 0,-1.48021 -1.081692,-2.5619 -1.081691,-1.08169 -2.561901,-1.08169 h -25.50515 v 7.28718 z m -36.435928,7.28719 v -21.86156 h 32.792335 q 1.48021,0 2.561901,-1.02476 1.081692,-1.08169 1.081692,-2.61883 v -3.64359 H 61.344891 V 270.541 H 105.068 v 14.57437 q 0,1.53714 -1.08169,2.61883 -1.08169,1.02476 -2.5619,1.02476 1.48021,0 2.5619,1.0817 1.08169,1.08169 1.08169,2.5619 v 14.57437 z"
+       style="font-size:58.29748535px;letter-spacing:5.11925077px;fill:#cc0000;fill-opacity:1;stroke-width:0.91089821px"
+       id="path4571" /><path
+       d="m 124.76163,306.97693 q -3.07428,0 -5.18074,-2.10645 -2.10645,-2.16339 -2.10645,-5.18074 h 43.72312 q 0,3.07428 -2.16339,5.18074 -2.16338,2.10645 -5.1238,2.10645 z m -7.28719,-14.57437 V 270.541 h 7.28719 v 21.86156 z m 36.43593,0 V 270.541 h 7.28719 v 21.86156 z"
+       style="font-size:58.29748535px;letter-spacing:5.11925077px;fill:#cc0000;fill-opacity:1;stroke-width:0.91089821px"
+       id="path4573" /><path
+       d="M 191.82196,306.97693 V 296.04615 L 173.60399,277.82819 V 270.541 h 7.28719 v 3.64359 l 14.57437,14.57437 14.57437,-14.57437 V 270.541 h 7.28719 v 7.28719 l -18.21797,18.21796 v 10.93078 z"
+       style="font-size:58.29748535px;letter-spacing:5.11925077px;fill:#cc0000;fill-opacity:1;stroke-width:0.91089821px"
+       id="path4575" /></g></svg>
