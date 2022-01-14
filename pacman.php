@@ -33,7 +33,7 @@
     </audio>
     <div id="page">
 
-      <div id="like-my-balls">Space Balls</div>
+      <div id="like-my-balls">How do ya like deez Space Balls?</div>
       <div id="bottom-link"><a href="/skills">Move on</a></div>
       <div class="bg-img"></div>
       <div id="logo">
