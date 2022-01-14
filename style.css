@@ -188,7 +188,9 @@ input[type=checkbox].with-font:focus ~ label
 .self-driving {background: url(/wp-content/uploads/2019/03/self-driving.svg); background-size: cover; padding-top: 40px;}
 .neuralink {background: url(/wp-content/uploads/2019/08/1920px-Neuralink_logo.svg.png); background-size: cover; padding-top: 40px; width: 56px; }
 .disruption {background: url(/wp-content/uploads/2019/04/volcano.svg); background-size: cover; padding-top: 40px;}
-.sustainable-energy {background: url(/wp-content/uploads/2019/08/sustainable-energy.svg); background-size: cover; padding-top: 40px;}
+.sustainability {background: url(/wp-content/uploads/2021/12/sustainability.svg); background-size: cover; padding-top: 40px;}
+.kingston-greenhouse-project {background: url(/wp-content/uploads/2021/12/greenhouse-project.svg); background-size: cover; padding-top: 40px;}
+
 .wind {background: url(/wp-content/uploads/2019/08/wind.svg); background-size: cover; width: 80px; margin-top: -20px; height: 74px; }
 .magento {background: url(/wp-content/uploads/2021/03/Magento_Shiny_Icon.svg); background-size: cover;  }
 .nearsuperchargers-com {background: url(/wp-content/uploads/2021/03/question-mark-ball.svg); background-size: cover;  }
